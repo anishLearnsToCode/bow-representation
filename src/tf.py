@@ -1,12 +1,15 @@
+# implementing the term frequency vectors
+
+import pprint
 from collections import Counter
 
+import nltk
 import numpy as np
 import pandas
-import pprint
 
 from src.utils import tokenize
 
-# nltk.download('stopwords')
+nltk.download('stopwords')
 
 # importing corpus as resume
 resume_file = open('../assets/resume.txt', 'r')
@@ -23,27 +26,28 @@ for i in range(5):
     documents.append(tokens[i * k: (i + 1) * k])
 documents.append(tokens[4 * k:])
 
-# calculating most common 5 tokens from each document
+# calculating most common 5 tokens from each document and storing frequency tables for each document
 most_common = set()
+document_frequencies = []
 for document in documents:
     frequencies = Counter(document)
+    document_frequencies.append(frequencies)
     for word, frequency in frequencies.most_common(5):
         most_common.add(word)
 
-# creating one hot vector for each word in most common
+# Calculating the term frequency vectors
 vectors = {}
 for word in most_common:
     vector = np.zeros((6), dtype=int)
-    for index, document in enumerate(documents):
-        vector[index] = word in document
+    for index, frequencies in enumerate(document_frequencies):
+        vector[index] = frequencies[word]
     vectors[word] = vector
-
 pprint.pp(vectors)
 
-# one hot vector representation
+# creating the table representation of words & vectors
 table = pandas.DataFrame(data=vectors)
 
-# writing the table in a text file to view output
-file = open('../assets/one-hot-vector.txt', 'w')
-file.write(table.to_string())
-file.close()
+# storing the table in text file to view output
+output_file = open('../assets/tf.txt', 'w')
+output_file.write(table.to_string())
+output_file.close()

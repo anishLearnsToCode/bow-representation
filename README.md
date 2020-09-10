@@ -22,7 +22,7 @@ __Natural Language Processing - Dr. Seba Susan__
 ## Implementation
 ## Results
 1. ⭐ [One Hot Vector](assets/one-hot-vector.txt)
-1. ⭐ [Term Frequency (TF) Vectors](assets)
+1. ⭐ [Term Frequency (TF) Vectors](assets/tf.txt)
 1. ⭐ [Term Frequency Inverse Document Frequency (TF-IDF) vectors](assets)
 
 ## Analytics & Discussion  
