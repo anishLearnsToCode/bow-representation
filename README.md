@@ -3,10 +3,10 @@ __Anish Sachdeva (DTU/2K16/MC/13)__
 
 __Natural Language Processing - Dr. Seba Susan__
 
-[📕 One Hot Vector]() | 
-[📕 Term Frequency (TF)]() | 
-[📕 Term Frequency - Inverse Document Frequency (TF-IDF)]() | 
-[✒ Report]()
+[📕 One Hot Vector](notebooks/one-hot-vector.ipynb) | 
+[📕 Term Frequency (TF)](notebooks) | 
+[📕 Term Frequency - Inverse Document Frequency (TF-IDF)](notebooks) | 
+[✒ Report](assets)
 
 ![project-image](assets/booster.jpg)
 
@@ -21,6 +21,10 @@ __Natural Language Processing - Dr. Seba Susan__
 ## Introduction
 ## Implementation
 ## Results
+1. ⭐ [One Hot Vector](assets/one-hot-vector.txt)
+1. ⭐ [Term Frequency (TF) Vectors](assets)
+1. ⭐ [Term Frequency Inverse Document Frequency (TF-IDF) vectors](assets)
+
 ## Analytics & Discussion  
 ## Running it on Your Machine
 
