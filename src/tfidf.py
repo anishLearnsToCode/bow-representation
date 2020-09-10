@@ -53,10 +53,10 @@ for word in most_common:
     for index, frequencies in enumerate(document_frequencies):
         vector[index] = frequencies[word] * np.log(N_t / N_w[word])
     vectors[word] = vector
-pprint.pp(vectors)
 
 # storing the vectors in tabular format
 table = pandas.DataFrame(data=vectors)
+print(table)
 
 # storing the result in text file
 output_file = open('../assets/tfidf.txt', 'w')
