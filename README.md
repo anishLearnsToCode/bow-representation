@@ -1,4 +1,4 @@
-# BOW Representations
+# BOW (Bag of Words) Representations
 __Anish Sachdeva (DTU/2K16/MC/13)__
 
 __Natural Language Processing - Dr. Seba Susan__
@@ -12,7 +12,7 @@ __Natural Language Processing - Dr. Seba Susan__
 
 ## 📖 Overview
 1. [Introduction](#introduction)
-1. [Results](#results)
+1. 🚩 [Results](#results)
 1. [Running it on Your Machine](#running-it-on-your-machine)
 1. [Bibliography](#bibliography)
 
@@ -32,7 +32,7 @@ In this assignment we compute word vectors from a resume using the following tec
 1. [Term Frequency (TF) Vectors](notebooks/term-frequency.ipynb) 
 1. [Term Frequency - Inverse Document Frequency (TF-IDF) Vectors](notebooks/term-frequency-inverse-document-frequency.ipynb) 
 
-## Results
+## 🚩 Results
 1. ⭐ [One Hot Vector](assets/one-hot-vector.txt)
 1. ⭐ [Term Frequency (TF) Vectors](assets/tf.txt)
 1. ⭐ [Term Frequency Inverse Document Frequency (TF-IDF) vectors](assets/tfidf.txt)
