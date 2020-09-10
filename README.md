@@ -6,7 +6,7 @@ __Natural Language Processing - Dr. Seba Susan__
 [📕 One Hot Vector](notebooks/one-hot-vector.ipynb) | 
 [📕 Term Frequency (TF)](notebooks/term-frequency.ipynb) | 
 [📕 Term Frequency - Inverse Document Frequency (TF-IDF)](notebooks/term-frequency-inverse-document-frequency.ipynb) | 
-[✒ Report](assets)
+[✒ Report](assets/report.pdf)
 
 ![project-image](assets/booster.jpg)
 
@@ -25,13 +25,18 @@ __Natural Language Processing - Dr. Seba Susan__
 ## Results
 1. ⭐ [One Hot Vector](assets/one-hot-vector.txt)
 1. ⭐ [Term Frequency (TF) Vectors](assets/tf.txt)
-1. ⭐ [Term Frequency Inverse Document Frequency (TF-IDF) vectors](assets)
+1. ⭐ [Term Frequency Inverse Document Frequency (TF-IDF) vectors](assets/tfidf.txt)
 
 ## Running it on Your Machine
-Clone this project on your machine and enter the src directory
+Clone this project on your machine and enter the src directory.
 ```bash
 git clone https://github.com/anishLearnsToCode/bow-representation.git
 cd bow-representation/src
+```
+
+Install Requirements:
+```bash
+pip install -r requirements.txt
 ```
 
 See Vector Outputs as 
@@ -39,6 +44,12 @@ See Vector Outputs as
 python one-hot-vector.py
 python tf.py
 python tfidf.py
+```
+
+Run the Notebooks and see interactive output:
+```bash
+cd bow-representation/notebooks
+jupyter notebook
 ```
 
 ## Bibliography
