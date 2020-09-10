@@ -4,8 +4,8 @@ __Anish Sachdeva (DTU/2K16/MC/13)__
 __Natural Language Processing - Dr. Seba Susan__
 
 [📕 One Hot Vector](notebooks/one-hot-vector.ipynb) | 
-[📕 Term Frequency (TF)](notebooks) | 
-[📕 Term Frequency - Inverse Document Frequency (TF-IDF)](notebooks) | 
+[📕 Term Frequency (TF)](notebooks/term-frequency.ipynb) | 
+[📕 Term Frequency - Inverse Document Frequency (TF-IDF)](notebooks/term-frequency-inverse-document-frequency.ipynb) | 
 [✒ Report](assets)
 
 ![project-image](assets/booster.jpg)
@@ -19,14 +19,27 @@ __Natural Language Processing - Dr. Seba Susan__
 1. [Bibliography](#bibliography)
 
 ## Introduction
+
 ## Implementation
+
 ## Results
 1. ⭐ [One Hot Vector](assets/one-hot-vector.txt)
 1. ⭐ [Term Frequency (TF) Vectors](assets/tf.txt)
 1. ⭐ [Term Frequency Inverse Document Frequency (TF-IDF) vectors](assets)
 
-## Analytics & Discussion  
 ## Running it on Your Machine
+Clone this project on your machine and enter the src directory
+```bash
+git clone https://github.com/anishLearnsToCode/bow-representation.git
+cd bow-representation/src
+```
+
+See Vector Outputs as 
+```bash
+python one-hot-vector.py
+python tf.py
+python tfidf.py
+```
 
 ## Bibliography
 1. [Speech & Language Processing ~Jurafsky](https://web.stanford.edu/~jurafsky/slp3/)
