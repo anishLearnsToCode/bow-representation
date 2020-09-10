@@ -34,9 +34,9 @@ for document in documents:
 # creating one hot vector for each word in most common
 vectors = {}
 for word in most_common:
-    vector = np.zeros((6), dtype=int)
+    vector = [0] * 6
     for index, document in enumerate(documents):
-        vector[index] = word in document
+        vector[index] = int(word in document)
     vectors[word] = vector
 
 pprint.pp(vectors)

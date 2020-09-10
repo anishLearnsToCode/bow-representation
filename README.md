@@ -6,13 +6,13 @@ __Natural Language Processing - Dr. Seba Susan__
 [📕 One Hot Vector](notebooks/one-hot-vector.ipynb) | 
 [📕 Term Frequency (TF)](notebooks/term-frequency.ipynb) | 
 [📕 Term Frequency - Inverse Document Frequency (TF-IDF)](notebooks/term-frequency-inverse-document-frequency.ipynb) | 
-[✒ Report](assets/report.pdf)
+[✒ Report](assets/nlp-bow-models.pdf)
 
 ![project-image](assets/booster.jpg)
 
 ## 📖 Overview
 1. [Introduction](#introduction)
-1. 🚩 [Results](#results)
+1. 🚩 [Results](#-results)
 1. [Running it on Your Machine](#running-it-on-your-machine)
 1. [Bibliography](#bibliography)
 

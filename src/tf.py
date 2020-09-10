@@ -10,7 +10,6 @@ import pandas
 # noinspection PyUnresolvedReferences
 from utils import tokenize
 
-nltk.download('stopwords')
 
 # importing corpus as resume
 resume_file = open('../assets/resume.txt', 'r')
