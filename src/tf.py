@@ -7,7 +7,8 @@ import nltk
 import numpy as np
 import pandas
 
-from src.utils import tokenize
+# noinspection PyUnresolvedReferences
+from utils import tokenize
 
 nltk.download('stopwords')
 

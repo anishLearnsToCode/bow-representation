@@ -4,7 +4,8 @@ import numpy as np
 import pandas
 import pprint
 
-from src.utils import tokenize
+# noinspection PyUnresolvedReferences
+from utils import tokenize
 
 # nltk.download('stopwords')
 
