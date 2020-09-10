@@ -22,7 +22,7 @@ k = len(tokens) // 6
 documents = []
 for i in range(5):
     documents.append(tokens[i * k: (i + 1) * k])
-documents.append(tokens[4 * k:])
+documents.append(tokens[5 * k:])
 
 # calculating most common 5 tokens from each document
 most_common = set()

@@ -97,3 +97,6 @@ Trinity College of London Plectrum Guitar Grade 3 (Merit)
 Trinity College of London Plectrum Guitar Grade 2 (Distinction)
 Trinity College of London Plectrum Guitar Grade 1 (Distinction)
 French A2.1 Level from CERN
+Java Data Structures and Algorithms @ Coding Ninjas
+Web Development with Ruby on Rails @ Coding Ninjas
+Competitive Programming @ Coding Ninjas
